@@ -2,7 +2,9 @@
 @section('content')
 <div class="container">
     <br/>
-    <h1 class="h2 mt-5">{{$title}}</h1>
-    <img src="http://gsisadmin.com/storage/school_images/banner.png" />
+    <div class="welcome-page">
+    <h4 class="welcome">Welcome to GSIS Elementary School Admin</h4>
+    <img src="/images/customLogo.png"/>
+    </div>
 </div>
 @endsection

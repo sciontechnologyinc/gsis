@@ -1,7 +1,7 @@
 <nav class="col-md-2 d-none d-md-block bg-light sidebar">
     <div class="sidebar-sticky">
         <div class="footer-side" style="text-align:center;">
-            <img class="center-block my-4" src="{{ asset('http://gsisadmin.com/storage/school_images/logo.gif') }}" width="120px" height="120px"  />
+            <img class="center-block my-4" src="{{ asset('/storage/school_images/logo.gif') }}" width="120px" height="120px"  />
         </div>
         @if(isset($pages) && count($pages) > 0)
             <ul class="nav flex-column">
