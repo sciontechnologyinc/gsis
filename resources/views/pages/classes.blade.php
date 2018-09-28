@@ -41,7 +41,7 @@
                 <td class="align-middle">{{$student->id}}</td>
                 <td class="align-middle">{{$student->firstname}} {{$student->lastname}}</td>
                 <td class="align-middle">
-                    <img src="../storage/student_images/{{$student->photo}}" width="50px" height="50px" />
+                    <img src="{{ asset('storage/student_images/'.$student->photo) }}" width="50px" height="50px" />
                 </td>
                 <td class="align-middle">{{$student->gender}}</td>
                 <td class="align-middle">{{$student->contactnumber}}</td>
